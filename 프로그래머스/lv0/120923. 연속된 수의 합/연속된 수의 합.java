@@ -10,6 +10,7 @@ class Solution {
             answer[i] = first;
             first++;
             // i가 ++ 증가하며 반복되어 배열에 입력된다.
+            // 0 부터 num값이 5보다 작을때까지 실행되므로 총 5회 실행
             // 5 / 15의 경우 1->2->3->4->5의 값이 배열로 나열된다.
         }
         return answer;
